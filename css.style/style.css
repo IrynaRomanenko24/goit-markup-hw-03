@@ -11,29 +11,65 @@
      body {
          font-family: 'Roboto', sans-serif;
          color: #434455;
-         background-color: #fff;
+         background-color: #fff;}
 
-     }
-                
-     /*  header*/
-
-     
-           
-    .header-menu-link:hover,
-    .header-menu-link:focus{
-        color: #404bbf;
-    }
-    
-         .header-menu-link{
-            font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                color: #2E2F42;
-                list-style: none;
+         .p,
+         h1,
+         h2,
+         h3{
+         margin:0 ;
          }
+
+       .ul,
+       li{margin:0 ;
+        padding: 0;
+       }
+
+.conteiner{
+    width: 1158px; ;
+    padding: left 15px; ;
+    padding: right 15px; ;
+    margin:0 auto ;
+    outline: 2px solid red
+}
+    
+                
+                     /*  header*/
+
+        .header {
+         padding-top: 24px;
+        }
+    
+        .header-conteiner{
+        display: flex;
+        align-items: center;
+        }
+
+        .header-navigation-link{
+        display: flex;
+        align-items: center;
+        }
+
+        .menu-list{
+        display: flex;
+        gap: 40px;
+        }
+
+        .header-menu-link:hover,
+        .header-menu-link:focus{
+        color: #404bbf;
+        }
+    
+        .header-menu-link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        list-style: none;
+        }
    
                  
 
@@ -48,10 +84,13 @@
          letter-spacing: 0.03em;
          text-transform: uppercase;
          color: #4D5AE5;
+        margin-right: 40px;
+        margin: 24px;
+        margin-bottom: 24px;
         
      }
 
-     .logo-studio {
+        .logo-studio {
          font-family: 'Raleway', sans-serif;
          font-style: normal;
          font-weight: 800;
@@ -62,68 +101,92 @@
          letter-spacing: 0.03em;
          text-transform: uppercase;
          color: #2E2F42;
-         text-decoration: none
-         ;
-     }
+         text-decoration: none;
+        }
 
-     /* address */
-                 .address-contacts-link :hover, 
-                .address-contacts-link:focus{
-                    color: #434455;;
-                }
+                  /* address */
+        .header-address{
+            margin-left: auto;
+        }
+        .address-list{
+        display: flex;
+        gap: 40px;
+        }
 
-                .address-contacts-link{
-                 font-family: 'Roboto';
-                 font-style: normal;
-                 font-weight: 400;
-                 font-size: 16px;
-                 line-height: 1.5;
-                 letter-spacing: 0.02em;
-                 color: #2E2F42;
-                }
+        .address-contacts-link :hover, 
+        .address-contacts-link:focus{
+        color: #434455;;
+        }
 
-    
-     /* hero */
-.hero{
-    background: #2E2F42;
-}
-     .maim-hero {
-       
+        .address-contacts-link{
         font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;
-            text-align: center;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-     }
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        }
 
-     .hero-main-btn:hover,
-     .hero-main-btn:focus {
-     background-color: #404bbf;
     
-}
+                    /* hero */
+     
+       .hero{
+        background: #2E2F42;
+        }
+
+
+        .maim-hero {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+        }
+
+        .hero-main-btn:hover,
+        .hero-main-btn:focus {
+        background-color: #404bbf;
+        }
     
-    .hero-main-btn{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    background-color: #4d5ae5;
-    color:#FFFFFF;
-     }
+        .hero-main-btn{
+         font-family: 'Roboto',sans-serif;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.5;
+         display: flex;
+         align-items: center;
+         letter-spacing: 0.04em;
+         cursor: pointer;
+         background-color: #4d5ae5;
+         color:#FFFFFF;
+         margin-bottom: 48px;
+         border-radius: 4px;
+         width: 169px;
+         height: 56px;
+         padding: 16px,32px,16px,32px;
+        }
 
 
      /* section 2 */
 
 
-     .about-work-list {
+        .about{
+         margin: 120px;
+        padding-left: 156px;}
+
+
+        .features-list{
+        display: flex;
+        gap: 24;}
+
+
+        .about-work-list {
          font-family: 'Roboto';
          font-style: normal;
          font-weight: 500;
@@ -131,9 +194,10 @@
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
+         margin: 24px;
      }
 
-     .features-work{
+       .features-work{
          font-family: 'Roboto';
          font-style: normal;
          font-weight: 400;
@@ -141,29 +205,37 @@
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: #434455;
+         margin: 24px;
      
      }
 
-     /* section 3 */
+           /* section 3 */
          
-         .concept-features{
+        .concept-features{
         font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
-            text-align: center;
-            letter-spacing: 0.02em;
-            text-transform: capitalize;
-            color: #2E2F42;
-         }
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        margin: 120px;}
     
 
-     .gallery-list {
-        list-style: none;
-     }
 
-     .gallery-item {
+        .gallery-img{
+         margin-right: 24px;}
+
+
+     
+        .gallery-list {
+        list-style: none;}
+
+
+
+        .gallery-item {
          box-sizing: border-box;
          width: 360px;
          height: 300px;
@@ -193,10 +265,14 @@
                     letter-spacing: 0.02em;
                     text-transform: capitalize;
                     color: #2E2F42;
+                    margin: 240px;
                  }
          
      .workers-gallery-item {
     background: #F4F4FD;
+     }
+     .workers-gsllery-imq{
+        margin: 72px;
      }
 
      .workers-name {
@@ -208,6 +284,7 @@
          text-align: center;
          letter-spacing: 0.02em;
          color: var(--primari-text-color);
+         margin: 32px;
         
      }
 
@@ -220,6 +297,7 @@
          text-align: center;
          letter-spacing: 0.02em;
          color: var(--primari-text-color);
+         margin: 8px;
      }
 
      /* Footer */
@@ -227,9 +305,10 @@
      .footer-general {
         background: #2E2F42;
         text-decoration: none;
+        margin: 100px;
      }
 
-     .footer-logo-web {
+       .footer-logo-web {
          font-family: 'Raleway', sans-serif;
          font-style: normal;
          font-weight: 800;
@@ -240,19 +319,22 @@
          letter-spacing: 0.03em;
          text-transform: uppercase;
          color: #4D5AE5;
+       
      }
 
-     .footer-logo-studio {
+        .footer-logo-studio {
         font-family: 'Raleway', sans-serif;
-         font-style: normal;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #F4F4FD;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;        
+        text-transform: uppercase;
+        color: #F4F4FD;
+        
+          
          
      }
 
@@ -265,5 +347,6 @@
             letter-spacing: 0.02em;
             color: #F4F4FD;
             text-decoration: none;
+            margin: 16px;
      }
          

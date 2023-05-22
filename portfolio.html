@@ -14,108 +14,149 @@
     <link href="./css.style/css.style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav class="header-navigation-link">
-        <a href="./index.html" class="header-logo-web"
-          >Web <span class="logo-studio">Studio</span></a
-        >
-        <ul class="header-menu-list">
-          <li><a href="./index.html" class="header-menu-link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
-          </li>
-          <li><a class="header-menu-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <!--address-->
-      <address class="header-address">
-        <ul class="address-list">
-          <li class="address-contact-link link">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="address-contact-link link">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="conteiner header-conteiner">
+        <nav class="header-navigation-link">
+          <a href="./index.html" class="header-logo-web"
+            >Web <span class="logo-studio">Studio</span></a
+          >
+          <ul class="header-menu-list">
+            <li><a href="./index.html" class="header-menu-link">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
+            </li>
+            <li><a class="header-menu-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <!--address-->
+        <address class="header-address">
+          <ul class="address-list">
+            <li class="address-contact-link link">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-contact-link link">
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!--Section -hero-->
       <section class="Portfolio-hero">
-        <h1 class="portfolio-hidden" hidden>features</h1>
-        <ul class="portfolio-hero-list">
-          <li class="portfolio-hero-btn-all">
-            <button type="portfolio-button">All</button>
-          </li>
-          <li class="portfolio-hero-btn">
-            <button type="portfolio-button">Web Site</button>
-          </li>
-          <li class="portfolio-hero-btn">
-            <button type="portfolio-button">App</button>
-          </li>
-          <li class="portfolio-hero-btn">
-            <button type="portfolio-button">Design</button>
-          </li>
-          <li class="portfolio-hero-btn">
-            <button type="portfolio-button">Marketing</button>
-          </li>
-        </ul>
-        <!--section 2-->
-        <ul class="profile-list">
-          <li class="cervice-item">
-            <img src="./images/imgport1.jpg" alt="banking app" width="360" />
-            <h2 class="font-title">Banking App Interface concept</h2>
-            <p class="front-text">App</p>
-          </li>
-          <li class="cervice-item">
-            <img src="./images/imgport2.jpg" alt="payment" width="360" />
-            <h2 class="font-title">Cashless Payment</h2>
-            <p class="font-text">Marketing</p>
-          </li>
-          <li class="cervice-item">
-            <img src="images/imgport3.jpg" alt="meditation app" width="360" />
-            <h2 class="font-title">Meditation App</h2>
-            <p class="font-text">App</p>
-          </li>
-          <li class="cervice-item">
-            <img src="images/imgport4.jpg" alt="taxi service" width="360" />
-            <h2 class="font-title">Taxi Service</h2>
-            <p class="font-text">Marketing</p>
-          </li>
-          <li class="cervice-item">
-            <img
-              src="images/imgport5.jpg"
-              alt="screen Illustration"
-              width="360"
-            />
-            <h2 class="font-title">Screen Illustration</h2>
-            <p class="font-text">Design</p>
-          </li>
-          <li class="cervice-item">
-            <img src="images/imgport6.jpg" alt="courses" width="360" />
-            <h2 class="font-title">Online Courses</h2>
-            <p class="font-text">Marketing</p>
-          </li>
-          <li class="cervice-item">
-            <img
-              src="images/imgport7.jpg"
-              alt="instagram Concept"
-              width="360"
-            />
-            <h2 class="font-title">Instagram Stories Concept</h2>
-            <p class="font-text">Design</p>
-          </li>
-          <li class="cervice-item">
-            <img src="images/imgpotr8.jpg" alt="food" width="360" />
-            <h2 class="font-title">Organic Food</h2>
-            <p class="font-text">Wab Site</p>
-          </li>
-          <li class="cervice-item">
-            <img src="images/imgport9.jpg" alt="coffe" width="360" />
-            <h2 class="font-title">Fresh Coffe</h2>
-            <p class="font-text">Wab Site</p>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h1 class="portfolio-hidden" hidden>features</h1>
+          <ul class="portfolio-hero-list">
+            <li class="portfolio-hero-btn-all">
+              <button type="portfolio-button">All</button>
+            </li>
+            <li class="portfolio-hero-btn">
+              <button type="portfolio-button">Web Site</button>
+            </li>
+            <li class="portfolio-hero-btn">
+              <button type="portfolio-button">App</button>
+            </li>
+            <li class="portfolio-hero-btn">
+              <button type="portfolio-button">Design</button>
+            </li>
+            <li class="portfolio-hero-btn">
+              <button type="portfolio-button">Marketing</button>
+            </li>
+          </ul>
+          <!--section 2-->
+          <ul class="profile-list">
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="./images/imgport1.jpg"
+                alt="banking app"
+                width="360"
+              />
+              <h2 class="font-title">Banking App Interface concept</h2>
+              <p class="front-text">App</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="./images/imgport2.jpg"
+                alt="payment"
+                width="360"
+              />
+              <h2 class="font-title">Cashless Payment</h2>
+              <p class="font-text">Marketing</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport3.jpg"
+                alt="meditation app"
+                width="360"
+              />
+              <h2 class="font-title">Meditation App</h2>
+              <p class="font-text">App</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport4.jpg"
+                alt="taxi service"
+                width="360"
+              />
+              <h2 class="font-title">Taxi Service</h2>
+              <p class="font-text">Marketing</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport5.jpg"
+                alt="screen Illustration"
+                width="360"
+              />
+              <h2 class="font-title">Screen Illustration</h2>
+              <p class="font-text">Design</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport6.jpg"
+                alt="courses"
+                width="360"
+              />
+              <h2 class="font-title">Online Courses</h2>
+              <p class="font-text">Marketing</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport7.jpg"
+                alt="instagram Concept"
+                width="360"
+              />
+              <h2 class="font-title">Instagram Stories Concept</h2>
+              <p class="font-text">Design</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgpotr8.jpg"
+                alt="food"
+                width="360"
+              />
+              <h2 class="font-title">Organic Food</h2>
+              <p class="font-text">Wab Site</p>
+            </li>
+            <li class="cervice-item">
+              <img
+                class="cervice-gallery-img"
+                src="images/imgport9.jpg"
+                alt="coffe"
+                width="360"
+              />
+              <h2 class="font-title">Fresh Coffe</h2>
+              <p class="font-text">Wab Site</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Footer-->
