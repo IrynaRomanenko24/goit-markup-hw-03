@@ -37,7 +37,7 @@
                      /*  header*/
 
         .header {
-         padding-top: 24px;
+         padding-top: 24px,0,24px,0;
         }
     
         .header-conteiner{
@@ -45,7 +45,10 @@
         align-items: center;
         }
 
-        
+        .header-navigation-link{
+        display: flex;
+        align-items: center;
+        }
 
         .menu-list{
         display: flex;
