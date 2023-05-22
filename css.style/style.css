@@ -226,7 +226,9 @@
 
 
         .gallery-img{
-         margin-right: 24px;}
+         margin-right: 24px;
+         display: block;
+        }
 
 
      
@@ -273,6 +275,7 @@
      }
      .workers-gsllery-imq{
         margin: 72px;
+        display: block;
      }
 
      .workers-name {
