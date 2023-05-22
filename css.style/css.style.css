@@ -139,7 +139,7 @@ body {
             display: flex;
             gap: 24px;
         }
-        
+
         .portfolio-hero-btn-all{
         font-family: 'Roboto';
         font-style: normal;
@@ -171,8 +171,8 @@ body {
 
 
         .cervice-gallery-img{
-    margin: 72px;
-}
+        display: block;
+        }
   
         .font-title{
         font-weight: 500;
