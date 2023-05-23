@@ -51,11 +51,17 @@
          border-bottom: 1px solid #E7E9FC;
         }
     
-        .header-conteiner{
+      
+
+        .header-navigation-link{
         display: flex;
         align-items: center;
         }
 
+        .menu-list{
+        display: flex;
+        gap: 40px;
+        }
 
         .header-menu-link:hover,
         .header-menu-link:focus{
@@ -109,7 +115,7 @@
 
                   /* address */
 
-
+                  
         .header-address{
             margin-left: auto;
         }
