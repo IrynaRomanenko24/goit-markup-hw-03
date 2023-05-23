@@ -160,6 +160,7 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 48px;
+        max-width: 496px;
         }
 
         .hero-main-btn:hover,
@@ -173,7 +174,7 @@
          font-weight: 500;
          font-size: 16px;
          line-height: 1.5;
-         display: flex;
+         display: block;
          align-items: center;
          letter-spacing: 0.04em;
          cursor: pointer;
