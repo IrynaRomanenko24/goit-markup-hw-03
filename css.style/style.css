@@ -51,7 +51,10 @@
          border-bottom: 1px solid #E7E9FC;
         }
     
-      
+        .header-conteiner{
+        display: flex;
+        align-items: center;
+        }
 
         .header-navigation-link{
         display: flex;
