@@ -56,15 +56,6 @@
         align-items: center;
         }
 
-        .header-navigation-link{
-        display: flex;
-        align-items: center;
-        }
-
-        .menu-list{
-        display: flex;
-        gap: 40px;
-        }
 
         .header-menu-link:hover,
         .header-menu-link:focus{
@@ -117,6 +108,8 @@
         }
 
                   /* address */
+
+
         .header-address{
             margin-left: auto;
         }
