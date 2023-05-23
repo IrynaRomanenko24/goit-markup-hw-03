@@ -169,7 +169,12 @@ body {
         cursor:pointer ;
         margin: 96px; }
 
-
+        .profile-list{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+        }
         .cervice-gallery-img{
         display: block;
         }
