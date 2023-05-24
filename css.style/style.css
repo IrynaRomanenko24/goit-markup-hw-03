@@ -214,9 +214,13 @@
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
-         margin-bottom: 8px;
+         
      }
 
+        .about-work-list{
+         margin-bottom: 8px;}
+
+         
        .features-work{
          font-family: 'Roboto';
          font-style: normal;
