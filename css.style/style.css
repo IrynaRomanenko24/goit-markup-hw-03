@@ -227,6 +227,11 @@
      }
 
            /* section 3 */
+
+        .conteiner-galler{
+        padding-bottom: 120px;
+
+            }
          
         .concept-features{
         font-family: 'Roboto';
@@ -238,7 +243,7 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
-        margin: 120px;}
+        margin-bottom: 72px;}
     
 
 
@@ -265,8 +270,15 @@
 
                              /* section 4 */
 
+         .conteiner-work-team{
+           
+         }
+
+
         .workers-gallery-list{
-        display: flex;}
+        display: flex;
+        gap: 24px;
+    }
 
 
         .workers-team {
@@ -293,12 +305,15 @@
 
 
         .workers-gallery-item {
-        background: #F4F4FD;}
+        background: #F4F4FD;
+        margin-right: 24px 24px 24px 0;
+    }
 
 
         .workers-gsllery-imq{
         margin: 72px;
-        display: block;}
+        display: block;
+       }
 
 
 
