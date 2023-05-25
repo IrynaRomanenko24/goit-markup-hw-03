@@ -104,6 +104,11 @@ body {
 
                    /* addres */
 
+          .conteinrt-hero{
+
+
+                                   }
+
         .header-address{
         margin-left: auto;}
 
@@ -214,7 +219,17 @@ body {
 
         .footter-general{
          background: #2E2F42;
-         margin: 120px;}
+         text-decoration: none;}
+
+        .footer-conteiner {
+         margin: 100px;
+        padding: 100px 0 100px 0;
+        }
+        
+        .footer-logo-web {
+        display: inline-block;
+        margin-bottom: 16px;
+        }
 
 
         .footer-logo-web{
@@ -251,4 +266,8 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        text-decoration: none;
         margin: 16px; }
+
+       .footer-general-content {
+        max-width: 264px; }
