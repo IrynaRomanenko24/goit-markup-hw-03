@@ -377,8 +377,8 @@
       
         }
         .footer-conteiner{
-            margin: 100px;
-                padding: 100px 0 100px 0;
+         margin: 100px;
+        padding: 100px 0 100px 0;
         }
 
         .footer-logo-web{
@@ -399,7 +399,9 @@
          color: #4D5AE5; }
 
 
-
+        .footer-logo-studio{
+            display: inline-block;
+        }
 
         .footer-logo-studio {
         font-family: 'Raleway', sans-serif;
