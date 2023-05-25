@@ -73,7 +73,11 @@
         .header-menu-link:focus{
         color: #404bbf;
         }
-    
+         
+        .header-menu-item{
+            padding: 24px 0 24px 0;
+        }
+
         .header-menu-link{
         font-family: 'Roboto';
         font-style: normal;
