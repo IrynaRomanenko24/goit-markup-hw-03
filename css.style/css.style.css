@@ -4,6 +4,7 @@
     text-decoration: none;
  }
  :root{--accent-color:#404bbf;
+    --accent-color:#E7E9FC;
 
  }
 /* body */
@@ -159,7 +160,12 @@ body {
         color: #FFFFFF;
         background-color: #404BBF;}
 
+        .portfolio-hero-btn-all :hover
+        .portfolio-hero-btn-all :focus { 
+            border: 1px solid transparent;
 
+
+ }
 
         .portfolio-button{    
         font-family: "Roboto" sans-serif;
