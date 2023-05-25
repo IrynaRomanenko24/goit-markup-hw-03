@@ -49,12 +49,13 @@
         .header {
         
          border-bottom: 1px solid #E7E9FC;
+         padding-top: 0 15px 0 15px;
         }
     
         .header-conteiner{
         display: flex;
         align-items: center;
-        padding-top: 0 15px 0 15px;
+      
         }
 
         .header-navigation-link{
@@ -73,10 +74,7 @@
         .header-menu-link:focus{
         color: #404bbf;
         }
-         
-        .header-menu-link{
-            
-        }
+      
 
         .header-menu-link{
         font-family: 'Roboto';
