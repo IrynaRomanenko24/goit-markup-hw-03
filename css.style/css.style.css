@@ -180,13 +180,22 @@ body {
         background-color:#F4F4FD;
         cursor:pointer ;
         margin: 96px; }
+ 
+
 
         .profile-list{
-            display: flex;
-            flex-wrap: wrap;
-            column-gap: 24px;
-            row-gap: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
         }
+
+        .cervice-item{
+         width: calc(100%-48px)/3;
+        
+        }
+
+
         .cervice-gallery-img{
         display: block;
         }
