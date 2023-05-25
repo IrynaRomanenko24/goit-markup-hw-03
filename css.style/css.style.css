@@ -104,11 +104,6 @@ body {
 
                    /* addres */
 
-          .conteinrt-hero{
-
-
-                                   }
-
         .header-address{
         margin-left: auto;}
 
@@ -147,6 +142,8 @@ body {
         .portfolio-hero-list{
             display: flex;
             gap: 24px;
+            justify-content: center;
+            margin-bottom: 72px;
         }
 
         .portfolio-hero-btn-all{
