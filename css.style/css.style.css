@@ -39,6 +39,8 @@ body {
   .header-conteiner {
       display: flex;
       align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
   }
 
   .header-navigation-link {
