@@ -55,7 +55,7 @@
         .header-conteiner{
         display: flex;
         align-items: center;
-      
+        padding: 0 15px 0 15px;
         }
 
         .header-navigation-link{
@@ -374,9 +374,14 @@
          .footer-general {
          background: #2E2F42;
          text-decoration: none;
-         margin: 100px;}
+         margin: 100px;
+         padding: 100px 0 100px 0;
+        }
 
-
+        .footer-logo-web{
+        display: inline-block;
+        margin-bottom: 16px;
+        }
 
          .footer-logo-web {
          font-family: 'Raleway', sans-serif;
@@ -418,3 +423,6 @@
         text-decoration: none;
         margin: 16px; }
          
+        .footer-general-content{
+            max-width: 264px;
+        }
